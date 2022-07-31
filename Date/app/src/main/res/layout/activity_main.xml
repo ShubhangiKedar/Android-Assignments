@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="8dp"
+tools:context=".MainActivity">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="AddCalendarEvent"
+    android:text="Add Calendar Event"
+    android:textColor="#ffffff"
+    android:background="@color/colorAccent"
+    android:textSize="17dp"
+    android:layout_marginTop="90dp"/>
+
+</RelativeLayout>
